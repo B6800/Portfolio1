@@ -2,10 +2,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
+// @ts-ignore
 import ecommerceImg from "@/assets/project-ecommerce.jpg";
+// @ts-ignore
 import taskManagerImg from "@/assets/project-taskmanager.jpg";
-import weatherImg from "@/assets/project-weather.jpg";
-import cmsImg from "@/assets/project-cms.jpg";
+
 
 const Projects = () => {
   const projects = [
@@ -22,29 +23,12 @@ const Projects = () => {
       title: "Task Management App",
       description: "Collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
       image: taskManagerImg,
-      technologies: ["Vue.js", "Firebase", "Vuetify", "PWA"],
+      technologies: ["Vue.js", "Superbase", "Vuetify", "PWA"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
-    {
-      title: "Weather Dashboard",
-      description: "Beautiful weather application with location-based forecasts, interactive maps, and data visualization using Chart.js.",
-      image: weatherImg,
-      technologies: ["JavaScript", "Chart.js", "Weather API", "CSS3"],
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: false
-    },
-    {
-      title: "Portfolio CMS",
-      description: "Content management system for creative professionals to showcase their work with customizable templates and SEO optimization.",
-      image: cmsImg,
-      technologies: ["Next.js", "Sanity", "Vercel", "TypeScript"],
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: false
-    }
+
   ];
 
   return (
@@ -108,7 +92,7 @@ const Projects = () => {
                 <div className="flex gap-3">
                   <Button size="sm" variant="default" className="flex-1">
                     <ExternalLink className="mr-2 h-4 w-4" />
-                    Live Demo
+                    Still in Progress
                   </Button>
                   <Button size="sm" variant="outline" className="flex-1">
                     <Github className="mr-2 h-4 w-4" />
