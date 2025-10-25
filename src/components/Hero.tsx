@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-gradient-primary">
-            Alex Johnson
+            Bakwowi Bryan
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">
             Full Stack Developer & UI/UX Designer
@@ -18,26 +18,37 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+            <a
+                href="mailto:bryanbakwowi@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
             <Button variant="default" size="lg" className="glow-primary">
               <Mail className="mr-2 h-5 w-5" />
               Get In Touch
             </Button>
-            <Button variant="outline" size="lg" className="transition-bounce hover:scale-105">
-              <Download className="mr-2 h-5 w-5" />
+            </a>
+            <a
+                href="\src\CV_Updated___.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+            >
+            <Button  variant="outline" size="lg" className="transition-bounce hover:scale-105">
+              <Download  className="mr-2 h-5 w-5" />
               Download CV
             </Button>
+          </a>
           </div>
 
           <div className="flex justify-center space-x-6 mb-16">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-smooth hover:scale-110 transform">
+            <a href="https://github.com/B6800" className="text-muted-foreground hover:text-primary transition-smooth hover:scale-110 transform">
               <Github className="h-6 w-6" />
             </a>
-            <a href="#" className="text-muted-foreground hover:text-accent transition-smooth hover:scale-110 transform">
+            <a href="https://www.linkedin.com/in/bakwowi-bryan-77284b2b7" className="text-muted-foreground hover:text-accent transition-smooth hover:scale-110 transform">
               <Linkedin className="h-6 w-6" />
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-smooth hover:scale-110 transform">
-              <Mail className="h-6 w-6" />
-            </a>
+
           </div>
         </div>
 

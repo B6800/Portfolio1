@@ -38,7 +38,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <div className="text-xl font-bold text-gradient-primary">
-            Alex Johnson
+            Bakwowi Bryan
           </div>
 
           {/* Desktop Navigation */}
@@ -53,9 +53,7 @@ const Navigation = () => {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
               </button>
             ))}
-            <Button variant="default" size="sm" className="glow-primary">
-              Hire Me
-            </Button>
+
           </div>
 
           {/* Mobile Menu Button */}

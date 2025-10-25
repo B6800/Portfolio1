@@ -33,8 +33,10 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a passionate developer with 5+ years of experience creating digital solutions
-            that make a difference. I love turning complex problems into simple, elegant designs.
+            Curious and driven computer science student specializing in software development and data analytics.
+            I enjoy turning complex problems into clean, efficient code and uncovering stories hidden within data.
+            My technical toolkit includes Python, Java, JavaScript, SQL and tools like Pandas, NumPy, and Tableau.
+
           </p>
         </div>
 
@@ -47,23 +49,25 @@ const About = () => {
               human-centered design.
             </p>
             <p className="text-muted-foreground mb-4">
-              I believe great software is not just about functionality—it's about creating
+              I believe great software is not just about functionality,it's about creating
               experiences that feel natural, look beautiful, and solve real problems.
             </p>
             <p className="text-muted-foreground">
-              When I'm not coding, you'll find me exploring new technologies, contributing
-              to open source projects, or sharing knowledge with the dev community.
+              I am currently pursuing the AWS Cloud Practitioner certification and delving into CI/CD pipelines to understand how to build,
+              test and deploy software efficiently.
+              Based in Regensburg but open to relocating or working remotely,
+              I’m actively seeking internships and entry‑level opportunities where I can apply my software development, data analysis and cloud skills while continuing to grow.
             </p>
           </div>
           
           <div className="card-gradient rounded-lg p-8 animate-fade-in-up border border-border">
             <h4 className="text-lg font-semibold mb-4">Quick Facts</h4>
             <ul className="space-y-2 text-muted-foreground">
-              <li>🌍 Based in San Francisco, CA</li>
-              <li>💼 5+ years of professional experience</li>
+              <li>🌍 Based in Regensburg, GE</li>
+              <li>💼 1+ years of professional experience</li>
               <li>🎓 Computer Science & Design background</li>
-              <li>🚀 20+ successful projects delivered</li>
-              <li>☕ Powered by coffee and curiosity</li>
+              <li>🚀 10+ successful projects delivered</li>
+              <li>☕ Powered by Challenges and curiosity</li>
             </ul>
           </div>
         </div>

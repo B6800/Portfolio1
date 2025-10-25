@@ -9,20 +9,23 @@ const Skills = () => {
       title: "Frontend Development",
       icon: Code2,
       skills: [
-        { name: "React/Next.js", level: 95 },
+        { name: "React", level: 95 },
         { name: "TypeScript", level: 90 },
-        { name: "Vue.js", level: 85 },
-        { name: "Tailwind CSS", level: 95 }
+        { name: "Vue.js", level: 70 },
+        { name: "Tailwind CSS", level: 80 },
+        { name: "Node.js", level: 90 },
+        { name: "Python", level: 65 },
       ]
     },
     {
       title: "Backend Development",
       icon: Database,
       skills: [
-        { name: "Node.js", level: 90 },
-        { name: "Python", level: 85 },
-        { name: "PostgreSQL", level: 80 },
-        { name: "MongoDB", level: 85 }
+        { name: "MariaDb", level: 85 },
+        { name: "PostgreSQL", level: 70 },
+        { name: "MongoDB", level: 40 },
+        { name: "Java", level: 85 },
+        { name: "SpringBoot", level: 85 },
       ]
     },
     {
@@ -30,9 +33,9 @@ const Skills = () => {
       icon: Palette,
       skills: [
         { name: "Figma", level: 90 },
-        { name: "Adobe Creative Suite", level: 85 },
+        { name: "Adobe Creative Suite", level: 90 },
         { name: "UI/UX Design", level: 90 },
-        { name: "Prototyping", level: 85 }
+        { name: "StarUML", level: 85 }
       ]
     },
     {
@@ -40,18 +43,16 @@ const Skills = () => {
       icon: Settings,
       skills: [
         { name: "Git/GitHub", level: 95 },
-        { name: "Docker", level: 80 },
-        { name: "AWS", level: 75 },
-        { name: "CI/CD", level: 80 }
+        { name: "Docker", level: 85 },
+        { name: "AWS", level: 85 },
+        { name: "CI/CD", level: 85 }
       ]
     }
   ];
 
   const certifications = [
-    "AWS Certified Developer",
-    "Google Cloud Professional",
-    "React Developer Certification",
-    "UX Design Specialization"
+    "AWS Certified Cloud Practitioner",
+
   ];
 
   const technologies = [

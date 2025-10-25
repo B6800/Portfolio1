@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">Email</h4>
-                  <p className="text-muted-foreground">alex.johnson@email.com</p>
+                  <p className="text-muted-foreground">bryanbakwowi@gmail.com</p>
                 </div>
               </div>
 
@@ -43,7 +43,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">Phone</h4>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-muted-foreground">+49 1799 483 998</p>
                 </div>
               </div>
 
@@ -53,18 +53,12 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">Location</h4>
-                  <p className="text-muted-foreground">San Francisco, CA</p>
+                  <p className="text-muted-foreground">Regensburg, GE</p>
                 </div>
               </div>
             </div>
 
-            <div className="mt-8 p-6 card-gradient rounded-lg border border-border">
-              <h4 className="font-semibold mb-2">Response Time</h4>
-              <p className="text-muted-foreground text-sm">
-                I typically respond to all inquiries within 24 hours. For urgent matters, 
-                feel free to call directly.
-              </p>
-            </div>
+
           </div>
 
           <Card className="card-gradient border-border animate-fade-in-up">
