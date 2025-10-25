@@ -20,3 +20,4 @@
   },
   "include": ["vite.config.ts"]
 }
+//Important for building app correctly
