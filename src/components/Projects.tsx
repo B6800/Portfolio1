@@ -13,11 +13,11 @@ const Projects = () => {
   const projects = [
     {
       title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include real-time inventory, admin dashboard, and mobile-responsive design.",
+      description: "A full-stack e-commerce solution with React, Springboot, and Stripe integration. Features include real-time inventory, admin dashboard, and mobile-responsive design.",
       image: ecommerceImg,
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+      technologies: ["React", "Springboot", "MariaDb", "Stripe", "Superbase","Tailwind CSS"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/B6800/E-Commerce.git",
       featured: true
     },
     {

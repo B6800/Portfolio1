@@ -12,8 +12,8 @@ const Skills = () => {
         { name: "React", level: 95 },
         { name: "TypeScript", level: 90 },
         { name: "Vue.js", level: 70 },
-        { name: "Tailwind CSS", level: 80 },
-        { name: "Node.js", level: 90 },
+        { name: "Tailwind CSS", level: 70 },
+        { name: "Node.js", level: 65 },
         { name: "Python", level: 65 },
       ]
     },
@@ -21,7 +21,7 @@ const Skills = () => {
       title: "Backend Development",
       icon: Database,
       skills: [
-        { name: "MariaDb", level: 85 },
+        { name: "MariaDb", level: 80 },
         { name: "PostgreSQL", level: 70 },
         { name: "MongoDB", level: 40 },
         { name: "Java", level: 85 },
