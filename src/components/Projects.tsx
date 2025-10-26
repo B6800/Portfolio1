@@ -6,7 +6,8 @@ import { ExternalLink, Github } from "lucide-react";
 import ecommerceImg from "@/assets/project-ecommerce.jpg";
 // @ts-ignore
 import taskManagerImg from "@/assets/project-taskmanager.jpg";
-
+// @ts-ignore
+import microbloggingImg from "@/assets/Microblogging.png";
 
 const Projects = () => {
   const projects = [
@@ -28,7 +29,15 @@ const Projects = () => {
       githubUrl: "#",
       featured: true
     },
-
+    {
+      title: "Microblogging  App",
+      description:  "A full-stack microblogging platform that allows users to create posts, interact through comments and likes, and manage profiles. Built with React and Spring Boot for a seamless, responsive experience.",
+      image: microbloggingImg,
+      technologies: ["SpringBoot", "React"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/B6800/Blogging.git",
+      featured: true
+    },
   ];
 
   return (
@@ -88,16 +97,40 @@ const Projects = () => {
                     </Badge>
                   ))}
                 </div>
-                
+
                 <div className="flex gap-3">
-                  <Button size="sm" variant="default" className="flex-1">
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    Still in Progress
-                  </Button>
-                  <Button size="sm" variant="outline" className="flex-1">
-                    <Github className="mr-2 h-4 w-4" />
-                    Code
-                  </Button>
+                  {project.liveUrl && project.liveUrl !== "#" ? (
+                      <a
+                          href={project.liveUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex-1"
+                      >
+                        <Button size="sm" variant="default" className="w-full">
+                          <ExternalLink className="mr-2 h-4 w-4" />
+                          Live Demo
+                        </Button>
+                      </a>
+                  ) : (
+                      <Button size="sm" variant="default" className="flex-1" disabled>
+                        <ExternalLink className="mr-2 h-4 w-4" />
+                        Still in Progress
+                      </Button>
+                  )}
+
+                  {project.githubUrl && project.githubUrl !== "#" && (
+                      <a
+                          href={project.githubUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex-1"
+                      >
+                        <Button size="sm" variant="outline" className="w-full">
+                          <Github className="mr-2 h-4 w-4" />
+                          Code
+                        </Button>
+                      </a>
+                  )}
                 </div>
               </CardContent>
             </Card>
@@ -115,4 +148,3 @@ const Projects = () => {
 };
 
 export default Projects;
- {/* ADD */}
